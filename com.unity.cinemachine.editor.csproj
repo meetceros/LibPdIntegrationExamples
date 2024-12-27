@@ -80,8 +80,8 @@
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Editors/CinemachinePOVEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Editors/CinemachineTransposerEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Editors/CinemachineScreenComposerGuides.cs" />
-    <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs" />
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Windows/CinemachineSettings.cs" />
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Editors/CinemachineVirtualCameraEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Editors/CinemachineConfinerEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Utility/ReflectionHelpers.cs" />

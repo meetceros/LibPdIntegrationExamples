@@ -145,10 +145,10 @@
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/UI/HandleMenuItem.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/AssetsUtils/ProjectPath.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Help/HelpFormat.cs" />
-    <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/Diff/DiffSelection.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Configuration/ConfigurePartialWorkspace.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Help/BuildFormattedHelp.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/WebApi/OrganizationCredentials.cs" />
+    <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/Diff/DiffSelection.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/History/HistoryListViewItem.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/Diff/UnityDiffTree.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/PendingChanges/ChangeTreeViewItem.cs" />
@@ -282,8 +282,8 @@
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/AssetsUtils/Processor/PlasticAssetsProcessor.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/CreateWorkspace/DrawCreateWorkspaceView.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Views/Changesets/ChangesetsListHeaderState.cs" />
-    <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/CheckWorkspaceTreeNodeStatus.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/DrawGuiModeSwitcher.cs" />
+    <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/CheckWorkspaceTreeNodeStatus.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportListView.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/Tool/LaunchTool.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor/PlasticSCM/AssetsUtils/Processor/AssetsProcessor.cs" />

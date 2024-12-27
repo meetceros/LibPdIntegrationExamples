@@ -100,6 +100,9 @@ public class uBuildManager : MonoBehaviour {
 		
 		if(mobileButtons != null)
 			mobileButtons.SetBool("build mode", buildMode);
+
+	//	buildModeTrue();
+
 	}
 	
 	void Update()

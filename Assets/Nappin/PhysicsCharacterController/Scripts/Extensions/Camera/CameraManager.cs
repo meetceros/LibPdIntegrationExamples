@@ -52,7 +52,6 @@ namespace PhysicsCharacterController
             SetDebug();
         }
 
-
         private void Update()
         {
             //DISABLE if using old input system
@@ -102,7 +101,8 @@ namespace PhysicsCharacterController
 
                 StartCoroutine(UpdateMask(thirdPersonMaskChangeDelay, thirdPersonMask));
 
-                builder.switchBuildMode();
+                //builder.switchBuildMode();
+                builder.buildModeTrue();
             }
             else
             {
@@ -115,7 +115,8 @@ namespace PhysicsCharacterController
 
                 StartCoroutine(UpdateMask(firstPersonMaskChangeDelay, firstPersonMask));
 
-                builder.switchBuildMode();
+                //builder.switchBuildMode();
+                builder.buildModeFalse();
             }
         }
 

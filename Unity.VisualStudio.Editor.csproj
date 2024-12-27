@@ -106,8 +106,8 @@
     <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Messaging/Message.cs" />
     <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/AsyncOperation.cs" />
     <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Discovery.cs" />
-    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestRunnerCallbacks.cs" />
     <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestAdaptor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/Testing/TestRunnerCallbacks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.22/Editor/com.unity.ide.visualstudio.asmdef" />
