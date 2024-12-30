@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class FCP_ExampleScript : MonoBehaviour
 {
@@ -47,9 +48,14 @@ public class FCP_ExampleScript : MonoBehaviour
 
     private void Update()
     {
-        // 마우스 클릭 처리
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) // 마우스 왼쪽 버튼 클릭
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+            {
+                return; // UI 위에서 클릭한 경우 뒤쪽 3D 오브젝트로 이벤트 전달 차단
+            }
+
+            // UI 위가 아닌 경우 3D 오브젝트 클릭 처리
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
